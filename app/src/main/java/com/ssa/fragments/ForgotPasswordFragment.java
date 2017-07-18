@@ -117,6 +117,7 @@ public class ForgotPasswordFragment extends Fragment {
         forgotPwdModel.setBody(body);
         forgotPwdModel.setHeader(header);
 
+
         Call<ForgotPwdResModel> call = client.forgotPwd(forgotPwdModel);
 
         call.enqueue(new Callback<ForgotPwdResModel>() {

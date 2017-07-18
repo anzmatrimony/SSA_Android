@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "329151750197",
+    "firebase_url": "https://ssachatapp.firebaseio.com",
+    "project_id": "ssachatapp",
+    "storage_bucket": "ssachatapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329151750197:android:f7ad41b1a7a0d44c",
+        "android_client_info": {
+          "package_name": "com.ssa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329151750197-dug3irvib7u5ectomtntdgjhs6dcrndi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeukjiT5sGVC64Os-tRZkU4c7qHs4FZJw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/dp_30">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dp_30"
+        android:layout_marginLeft="@dimen/dp_30"
+        android:layout_marginRight="@dimen/dp_30"
+        android:layout_marginStart="@dimen/dp_30"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_add_school"
+                android:layout_width="@dimen/dp_50"
+                android:layout_height="@dimen/dp_50"
+                android:src="@drawable/ic_add_school_select" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@color/hint_color" />
+
+            <ImageView
+                android:id="@+id/iv_confirm_school"
+                android:layout_width="@dimen/dp_50"
+                android:layout_height="@dimen/dp_50"
+                android:src="@drawable/ic_confirm_school" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_add_school"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/add_school" />
+
+            <TextView
+                android:id="@+id/tv_confirm_school"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/confirm_school" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_uid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_20"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_uid_number" />
+
+        <EditText
+            android:id="@+id/et_uid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@drawable/edit_bg"
+            android:hint="@string/uid_number"
+            android:padding="@dimen/dp_5"
+            android:textColorHint="@color/hint_color"
+            android:textSize="@dimen/sp_14" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_20"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name_of_school" />
+
+        <TextView
+            android:id="@+id/tv_name_of_school"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/edit_bg" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_20"
+            android:text="@string/address_of_school" />
+
+        <TextView
+            android:id="@+id/tv_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/edit_bg" />
+
+        <TextView
+            android:id="@+id/tv_state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/edit_bg" />
+
+        <TextView
+            android:id="@+id/tv_pincode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/edit_bg" />
+
+        <TextView
+            android:id="@+id/tv_website"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/edit_bg" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_20"
+        android:background="@color/colorPrimary"
+        android:minHeight="@dimen/dp_30"
+        android:padding="@dimen/dp_10"
+        android:text="@string/submit"
+        android:textColor="@color/white" />
+</LinearLayout>

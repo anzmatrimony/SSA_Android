@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dp_2"
+    android:background="@drawable/outline_bg_cream"
+    android:orientation="horizontal"
+    android:padding="@dimen/dp_5">
+
+    <ImageView
+        android:layout_width="@dimen/dp_45"
+        android:layout_height="@dimen/dp_45"
+        android:layout_marginEnd="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_10"
+        android:src="@drawable/ic_schools" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_school_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="dkjd"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/tv_date_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="dkdjhd" />
+    </LinearLayout>
+</LinearLayout>

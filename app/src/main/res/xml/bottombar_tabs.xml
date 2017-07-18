@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        icon="@drawable/icon_home"
+        id="@+id/tab_schools"
+        title="Schools" />
+    <tab
+        icon="@drawable/icon_home"
+        id="@+id/tab_kids"
+        title="Kids" />
+    <tab
+        icon="@drawable/icon_home"
+        id="@+id/tab_activities"
+        title="Activities" />
+    <tab
+        icon="@drawable/icon_home"
+        id="@+id/tab_messages"
+        title="Messages" />
+</tabs>
